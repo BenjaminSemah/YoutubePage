@@ -2,6 +2,7 @@ body{
     background-color:#333333;
     display:flex;
     flex-direction:column; 
+    margin: 0;
 }
 
 nav{
@@ -64,4 +65,55 @@ nav{
 input{
     padding:3px 3px;
     width:20em;
+}
+
+.main {
+    background-color: blue;
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 20px 10px 20px 50px;
+}
+
+.left {
+    margin-right: 30px;
+}
+
+.video-info {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 0;
+}
+
+.title-main {
+    margin-bottom: 0;
+    font-family: 'Lucida Sans', 'Times New Roman';
+}
+
+.video-info-left {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.video-info-left p {
+    margin-right: 10px;
+}
+
+.video-info-right {
+    display: flex;
+    align-items: baseline;
+
+}
+
+.likes {
+    margin-right: 10px;
+}
+
+.share-save {
+    display: flex;
+    margin-left: 50px;
+}
+
+.share-save p {
+    margin-right: 15px;
 }
