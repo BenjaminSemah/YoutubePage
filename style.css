@@ -1,5 +1,5 @@
 body{
-    background-color:#333333;
+    background-color:#fefefe;
     display:flex;
     flex-direction:column; 
     margin: 0;
@@ -11,9 +11,14 @@ nav{
     justify-content: space-around;  
     align-items: center;
     background-color: white;
-    margin:0;
+
     padding:0.2px;
     height: 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+
 
 }
 
@@ -68,10 +73,11 @@ input{
 }
 
 .main {
-    background-color: blue;
     display: flex;
     /* flex-wrap: wrap; */
     padding: 20px 10px 20px 50px;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .left {
@@ -116,4 +122,33 @@ input{
 
 .share-save p {
     margin-right: 15px;
+}
+
+.flag{
+width:150px;
+height:100px;
+
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.first-video, .second-video, .third-video {
+    display:flex;
+    margin-bottom:30px;
+}
+
+.Flags-info{
+    line-height: 0.5em;
+    font-size: 0.7em;
+    margin-left: 20px;
+}
+
+.Flags-info h2{
+
+      line-height: 1em;
 }
